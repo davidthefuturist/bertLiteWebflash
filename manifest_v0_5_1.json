@@ -1,14 +1,12 @@
 {
-    "name": "geminiR",
-    "version": "0.0.3",
+    "name": "BERT Lite",
+    "version": "0.5.1",
     "new_install_prompt_erase": true,
     "builds": [
       {
-        "chipFamily": "ESP32-C3",
+        "chipFamily": "ESP32",
         "parts": [
-          { "path": "firmware/bootloader.bin", "offset": 0 },
-          { "path": "firmware/partition-table.bin", "offset": 32768 },
-          { "path": "firmware/BoostedBreakReceiver.bin", "offset": 65536 }
+          { "path": "v0_5_1/uglyMessPort.ino.merged.bin", "offset": 0 }
         ]
       }
     ]
